@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(218, 170, 24, 0.889);
+    gap: 3px;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+}
+
+h4{
+    text-align: center;
+    color: azure;
+}
+
+p{
+    text-align: center;
+    color: azure;
+}
+
+button{
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
